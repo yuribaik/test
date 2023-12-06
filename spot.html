@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: white;
+            text-shadow: white;
+            font-size: 20px;
+        }
+        body {
+    position: relative;
+    background-color: rgb(26, 3, 44);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/japenbg_spot.jpg');
+    filter: blur(5px) saturate(70%) brightness(40%); /* Adjust the blur radius as needed */
+    z-index: -1; 
+}
+        li {
+            list-style-type: none;
+        }
+        #logo {
+            float: left;
+            height: 100px;
+        }
+        #menu {
+            clear: both;
+            height: 40px;
+            color: rgb(255, 182, 182);
+            padding-top: 15px;
+            font-size: 20px;
+            /* Adjusted margin to move the menu to the left */
+            margin-left: 1600px;
+        }
+        a {
+            text-decoration: none;
+        }
+        #menu li {
+            display: inline;
+        }
+        .item { 
+            margin: 0 20px 0 20px;
+        }
+        #main_image {
+            clear: both;
+            padding-top: 20px;
+        }
+        #fall_image {
+            clear: both;
+            padding-bottom: 20px;
+        }
+        #menu2 {
+            clear: both;
+            height: 100px;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+            font-size: 15px;
+        }
+        #image {
+            width: 1950px;
+            padding: 30px;
+            border: solid 1px #cccccc;
+            border-radius: 10px;
+            background-color: #f5f7e4;
+        }
+        #image_li {
+            list-style-type: none;
+            display: inline;
+            margin-left: 20px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+        }
+        #main_title {
+            font-family: '맑은고딕';
+            margin: 10px;
+            padding-bottom: 6px;
+            border-bottom: solid 2px #aaaaaa;
+        }
+        .list_ittem {
+            clear: both;
+            height: 130px;
+            margin: 10px;
+            border-bottom: solid 1px #cccccc;
+        }
+        .image {
+            float: left;
+            width: 100px;
+        }
+        .intro {
+            float: left;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .price {
+            float: left;
+            width: 150px;
+        }
+        .red {
+            font-weight: bold;
+            color: red;
+        }
+        .small {
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        .writer {
+            float: left;
+            width: 100px;
+        }
+        a:visited{
+        color: rgb(247, 168, 157);
+        text-decoration: none;
+    }
+      #sub_image {
+        clear: both;
+            padding-top: 20px;
+      }
+     
+      #main_image {
+            clear: both;
+            padding-top: 20px;
+        }
+
+        #imageContainer {
+            overflow: hidden;
+        }
+
+        #imageContainer img {
+            float: left;
+            width: 50%; /* Adjust the width as needed */
+        }
+
+        #imageText {
+            float: left;
+            width: 50%; /* Adjust the width as needed */
+            padding: 20px; /* Add padding for spacing */
+            box-sizing: border-box; /* Include padding in the width */
+            font-family: '함초록바탕';
+        }
+        #imageContainer img2 {
+            float: right;
+            width: 50%; /* Adjust the width as needed */
+        }
+
+        #imageText2 {
+            float: left; /* Change to float right */
+            width: 50%; /* Adjust the width as needed */
+            padding: 20px; /* Add padding for spacing */
+            box-sizing: border-box; /* Include padding in the width */
+            font-family: '함초록바탕';
+            color: white; /* Set text color to white */
+            text-shadow: white; /* Set text shadow to white */
+        }
+        a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+    <div id="logo">
+       <a href="index.html"><img src='img/logo2.png'></a>
+    </div>
+    
+    <ul id="menu">
+        <li class="item"><a href="spot.html">SPOT</a></li>
+        <li>|</li>
+        <li class="item"><a href="restaurant.html">RESTAURANT</a></li>
+        <li>|</li>
+        <li class="item"><a href="culture.html">CULTURE</a></li>
+        <li>|</li>
+        <li class="item"><a href="nature.html">NATURE</a></li>
+        <li>|</li>
+        <li class="item"><a href="history.html">HISTORY</a></li>
+    </ul>
+    <br><br>
+    <p>긴자 : 세계 NO.1 명품거리. 주말이면 보행자 천국이 되어 긴자라는 이름 자체가 브랜드임을 증명</p>
+</div>
+    <div id="main_image">
+        <div id="imageContainer">
+            <img src="img/ginza.jpg">
+            <div id="imageText">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <p>도쿄의 긴자는 일본의 수도인 도쿄에 위치한 지역으로, 전통과 현대가 공존하는 독특한 분위기를 자랑합니다. <br>
+                    긴자는 과거에는 유명한 유흥가와 관련이 있었지만, 현재는 예술과 디자인, 고급 레스토랑, 카페, 갤러리 등이 즐비한 지역으로 변모했습니다. <br>
+
+                    긴자는 다양한 예술과 문화를 즐기기 위한 장소로 알려져 있습니다. 예술 갤러리, 디자인 스튜디오, 독립 영화 상영관 등이 있어 예술과 디자인에 관심이 있는 이들에게 인기를 끕니다. <br>
+                    또한, 각종 전시회와 행사가 열리는 곳으로도 알려져 있습니다.
+                    
+                    또한, 긴자는 고급 레스토랑과 차별화된 카페가 많이 위치해 있어 음식과 음료를 즐기는 이들에게도 좋은 장소로 손꼽힙니다. 특히, 일본 전통 차문화를 경험할 수 있는 차 가게들도 많이 있어 일본 다다미를 마주하고 전통적인 차를 즐길 수 있습니다. <br>
+                    
+                    긴자는 도쿄의 현대적인 면과 전통적인 면이 어우러져 있어 독특하고 매력적인 지역 중 하나로 꼽힙니다. 이 지역을 방문하면 일본의 다양한 면을 체험할 수 있으며, 특히 일본의 예술, 디자인, 음식 문화에 대한 풍부한 경험을 즐길 수 있습니다.</p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <p>센소지 : 도쿄 내 가장 오래된 절. 오래된 노포도, 사람도 많은 듯하나 그 또한 여행의 묘미.</p>
+    <br>
+    <div id="main_sub_image">
+        <div id="imageContainer">
+            <img src="img/sensoji.jpg">
+            <div id="imageText2">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <p>도쿄의 센소지(浅草寺)는 일본의 대표적인 절 중 하나로, 일본 전통 문화와 종교적인 중심지로서 유명합니다. 센소지는 도쿄의 타이틀로 알려진 구도 구역에 위치하고 있습니다. <br>
+
+                    주변 지역과는 달리 센소지는 오랜 역사를 가지고 있으며, 일본 최고의 부처인 간노불(観音菩薩)을 모신다고 전해집니다. 센소지는 628년에 세워진 것으로 알려져 있어, 역사적으로 매우 중요한 사원 중 하나입니다. <br>
+                    
+                    센소지로 가는 대표적인 입구로는 "코시몬"이라고 불리는 대문이 있습니다. 이 대문은 매우 화려하게 장식돼 있으며, 센소지로의 입구로 들어가는 길을 마치는 아치 모양의 대표적인 입구로 알려져 있습니다. <br>
+                    
+                    또한, 센소지 주변에는 "나캄세 도리"라고 불리는 쇼핑 거리가 있습니다. 이곳에는 전통적인 일본의 기념품, 공예품, 음식 등을 판매하는 상점들이 즐비하게 위치해 있어 방문객들에게 다양한 쇼핑 체험을 제공합니다. <br>
+                    
+                    또한, 센소지의 꼭대기에는 "테비라"라 불리는 전망대가 있어 도쿄의 경치를 한눈에 감상할 수 있습니다. 특히, 센소지 근처의 아사쿠사에서는 여러 가지 전통적인 축제도 열리며, 이곳은 많은 관광객들이 찾는 명소 중 하나입니다.
+                </p>
+            </div>
+        </div>
+    </div><br><br>
+    <p>도쿄 타워 : 오랫동안 사람들의 가슴 속에 소박한 빛을 밝혀 준 영원한 도쿄의 심볼</p>
+    <br>
+    <div id="main_sub_image">
+        <div id="imageContainer">
+            <img src="img/tokyotower.jpg">
+            <div id="imageText2">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <p>도쿄 타워(Tokyo Tower)는 일본 도쿄의 미나토 구에 위치한 랜드마크로, 도쿄를 대표하는 명소 중 하나입니다. 이 타워는 에펠탑을 모티브로 하여 1958년에 완공되었습니다. 도쿄 타워는 도쿄의 도시 경치를 감상할 수 있는 전망대뿐만 아니라 라디오와 텔레비전 방송국을 포함하고 있습니다. <br>
+
+                    도쿄 타워의 특징적인 디자인은 높이가 약 332.9m로, 일본에서 가장 높은 자율청동 타워로 알려져 있습니다. 그 높이와 빨간색과 흰색의 독특한 외관은 타워를 멀리서도 쉽게 식별할 수 있게 만들어주고 있습니다. <br>
+                    
+                    도쿄 타워는 두 개의 관측 갤러리를 보유하고 있습니다. 주층의 "메인 디포"에서는 다양한 기념품과 음식을 즐길 수 있습니다. 또한, 타워의 상층에 위치한 "메인 갤러리"에서는 360도로 도시 경치를 감상할 수 있습니다. 날씨가 맑은 날에는 후쿠시마 현의 산악 지형과 대부분의 도쿄를 볼 수 있습니다. <br>
+                    
+                    매년 크리스마스 시즌에는 타워가 환상적인 조명으로 장식되어 도쿄의 야경을 더욱 아름답게 만듭니다. 도쿄 타워는 또한 다양한 이벤트, 콘서트, 행사 등이 열리는 장소로도 활용되고 있습니다. 전통과 현대가 조화를 이루는 이 도시의 상징적인 명소 중 하나로 도쿄를 방문하는 많은 관광객들에게 사랑받고 있습니다.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    
+    <ul id="menu2">
+        <li class="item">16038 경기도 의왕시 계원대학로 66(내손동) 계원예술대학교 대표전화 0204-0719 </li>
+        <br> 
+        <li class="item">instagram : https://www.instagram.com/y_r_qor/</li>
+        <br>
+        <li class="item"> E-mail : yuribaiK@naver.com </li>
+    </ul>
+</body>
+</html>
